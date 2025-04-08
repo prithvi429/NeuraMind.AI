@@ -13,6 +13,7 @@ Welcome to the **NeuraMind AI** website repository! This project showcases the f
   - **Contact**: Easy ways to connect with the team.
 - **Modern UI**: Neon-inspired design with glowing effects and smooth animations.
 - **Accessibility**: Ensures proper spacing and layout for all screen sizes.
+- **Google Site Verification**: Includes a meta tag for Google site verification.
 
 ## Technologies Used
 
@@ -21,6 +22,7 @@ Welcome to the **NeuraMind AI** website repository! This project showcases the f
 - **JavaScript**: For interactivity and smooth scrolling.
 - **Font Awesome**: For icons.
 - **Google Fonts**: For typography.
+- **Next.js**: For server-side rendering and custom document structure.
 
 ## How to Run
 
@@ -41,6 +43,7 @@ neuramind-website/
 ├── index.html       # Main HTML file
 ├── style.css        # Stylesheet for the website
 ├── README.md        # Project documentation
+├── pages/           # Next.js custom document (_document.js)
 └── assets/          # Images and other assets (if applicable)
 ```
 
