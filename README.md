@@ -14,6 +14,7 @@ Welcome to the **NeuraMind AI** website repository! This project showcases the f
 - **Modern UI**: Neon-inspired design with glowing effects and smooth animations.
 - **Accessibility**: Ensures proper spacing and layout for all screen sizes.
 - **Google Site Verification**: Includes a meta tag for Google site verification.
+- **Sitemap**: A `sitemap.xml` file is included to improve SEO and help search engines index the website.
 
 ## Technologies Used
 
@@ -43,6 +44,7 @@ neuramind-website/
 ├── index.html       # Main HTML file
 ├── style.css        # Stylesheet for the website
 ├── README.md        # Project documentation
+├── sitemap.xml      # Sitemap for search engines
 ├── pages/           # Next.js custom document (_document.js)
 └── assets/          # Images and other assets (if applicable)
 ```
