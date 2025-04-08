@@ -202,11 +202,11 @@ h1:hover, h2:hover, h3:hover {
   }
 
   .feedback-section {
-    margin-bottom: 4rem; /* Increase spacing for smaller screens */
+    margin-bottom: 8rem; /* Increase spacing for smaller screens */
   }
 
   .contact-section {
-    margin-top: 4rem; /* Increase spacing for smaller screens */
+    margin-top: 8rem; /* Increase spacing for smaller screens */
   }
 
   .feedback-grid,
@@ -234,19 +234,19 @@ h1:hover, h2:hover, h3:hover {
   }
 
   .feedback-section {
-    margin-bottom: 5rem; /* Further increase spacing for very small screens */
+    margin-bottom: 10rem; /* Further increase spacing for very small screens */
   }
 
   .contact-section {
-    margin-top: 5rem; /* Further increase spacing for very small screens */
+    margin-top: 10rem; /* Further increase spacing for very small screens */
   }
 }
 
 /* Fix Overlap Issue */
 .feedback-section {
-  margin-bottom: 3rem; /* Add spacing below feedback section */
+  margin-bottom: 6rem; /* Add sufficient spacing below feedback section */
 }
 
 .contact-section {
-  margin-top: 3rem; /* Add spacing above contact section */
+  margin-top: 6rem; /* Add sufficient spacing above contact section */
 }
