@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://prithvi429.github.io/NeuraMind.AI/sitemap.xml
