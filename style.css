@@ -200,6 +200,19 @@ h1:hover, h2:hover, h3:hover {
   h3 {
     font-size: 1.5rem;
   }
+
+  .feedback-section {
+    margin-bottom: 2rem; /* Add spacing below feedback section */
+  }
+
+  .contact-section {
+    margin-top: 2rem; /* Add spacing above contact section */
+  }
+
+  .feedback-grid,
+  .contact-grid {
+    grid-template-columns: 1fr; /* Ensure single-column layout */
+  }
 }
 
 @media (max-width: 480px) {
@@ -218,5 +231,13 @@ h1:hover, h2:hover, h3:hover {
 
   .home-content p {
     font-size: 0.9rem;
+  }
+
+  .feedback-section {
+    margin-bottom: 2.5rem; /* Increase spacing for smaller screens */
+  }
+
+  .contact-section {
+    margin-top: 2.5rem; /* Increase spacing for smaller screens */
   }
 }
