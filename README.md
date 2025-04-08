@@ -15,6 +15,7 @@ Welcome to the **NeuraMind AI** website repository! This project showcases the f
 - **Accessibility**: Ensures proper spacing and layout for all screen sizes.
 - **Google Site Verification**: Includes a meta tag for Google site verification.
 - **Sitemap**: A `sitemap.xml` file is included to improve SEO and help search engines index the website.
+- **Robots.txt**: A `robots.txt` file is included to manage search engine crawling.
 
 ## Technologies Used
 
@@ -45,6 +46,7 @@ neuramind-website/
 ├── style.css        # Stylesheet for the website
 ├── README.md        # Project documentation
 ├── sitemap.xml      # Sitemap for search engines
+├── robots.txt       # Robots.txt file for search engine crawling
 ├── pages/           # Next.js custom document (_document.js)
 └── assets/          # Images and other assets (if applicable)
 ```
