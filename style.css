@@ -402,3 +402,50 @@ body {
     margin-top: 8rem; /* Further increase spacing for contact section */
   }
 }
+
+/* Fix Overlap and Ensure Proper Spacing */
+section {
+  margin-bottom: 6rem; /* Add consistent spacing between sections */
+}
+
+.feedback-section {
+  margin-bottom: 8rem; /* Add extra spacing below feedback section */
+}
+
+.contact-section {
+  margin-top: 8rem; /* Add extra spacing above contact section */
+}
+
+/* Ensure Proper Layout on Smaller Screens */
+@media (max-width: 768px) {
+  section {
+    margin-bottom: 7rem; /* Increase spacing for smaller screens */
+  }
+
+  .feedback-section {
+    margin-bottom: 9rem; /* Further increase spacing for feedback section */
+  }
+
+  .contact-section {
+    margin-top: 9rem; /* Further increase spacing for contact section */
+  }
+
+  .feedback-grid,
+  .contact-grid {
+    grid-template-columns: 1fr; /* Ensure single-column layout */
+  }
+}
+
+@media (max-width: 480px) {
+  section {
+    margin-bottom: 8rem; /* Further increase spacing for very small screens */
+  }
+
+  .feedback-section {
+    margin-bottom: 10rem; /* Further increase spacing for feedback section */
+  }
+
+  .contact-section {
+    margin-top: 10rem; /* Further increase spacing for contact section */
+  }
+}
