@@ -11,6 +11,8 @@
   font-size: 1.1rem;
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  outline: none;
 }
 
 .cta-button::before {
@@ -31,6 +33,10 @@
   opacity: 1;
 }
 
+.cta-button:focus {
+  box-shadow: 0 0 10px var(--neon-cyan);
+}
+
 /* Enhanced Scrollbar */
 ::-webkit-scrollbar {
   width: 12px;
@@ -47,7 +53,7 @@
 /* Glowing Section Borders */
 section {
   position: relative;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
   border: 2px solid transparent;
   border-image: linear-gradient(45deg, var(--neon-cyan), var(--cyber-purple)) 1;
   border-radius: 15px;
@@ -55,7 +61,7 @@ section {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   width: 100%; /* Ensure sections take full width */
   box-sizing: border-box; /* Include padding and border in width */
-  margin-bottom: 4rem; /* Add consistent spacing between sections */
+  margin-bottom: 6rem; /* Ensure consistent spacing between sections */
 }
 
 section:hover {
@@ -447,5 +453,116 @@ section {
 
   .contact-section {
     margin-top: 10rem; /* Further increase spacing for contact section */
+  }
+}
+
+/* Add Smooth Scrolling */
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+}
+
+/* Add Hover Effects for Links */
+a {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+a:hover {
+  color: var(--neon-cyan);
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* Add Footer Styling */
+footer {
+  background: linear-gradient(45deg, #1a1a2f, #0f0f1a);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  border-top: 2px solid var(--neon-cyan);
+}
+
+footer a {
+  color: var(--neon-cyan);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+
+/* Improve Hero Section for Phones and Laptops */
+.hero {
+  padding: 20vh 5%;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 4rem; /* Adjust font size for better visibility */
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+/* Adjust Grid Layout for Phones and Laptops */
+.ai-agents-grid,
+.feedback-grid,
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 2rem;
+}
+
+/* Improve Footer for Smaller Screens */
+footer {
+  font-size: 0.8rem; /* Adjust font size for smaller screens */
+  padding: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 3rem; /* Adjust font size for phones */
+  }
+
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta-button {
+    font-size: 0.9rem;
+    padding: 0.8rem 1.2rem;
+  }
+
+  section {
+    padding: 3rem 1.5rem;
+  }
+
+  footer {
+    font-size: 0.7rem; /* Smaller footer text for phones */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2.5rem; /* Further adjust font size for very small screens */
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+  }
+
+  section {
+    padding: 2rem 1rem;
+  }
+
+  footer {
+    font-size: 0.6rem; /* Further adjust footer text size */
   }
 }
